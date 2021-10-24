@@ -1,0 +1,39 @@
+body {
+    font-family: "Manrope", sans-serif;
+    color: #18191F;
+}
+
+.bg-content {
+    background-image: url('../img/Phones.png');
+    background-repeat: no-repeat;
+    width: 1440;
+    height: 491px;
+    background-color: #2EC5CE;
+    background-position: top right;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+button {
+    width: 135px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    background-color: #2EC5CE;
+}
