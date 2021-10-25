@@ -3,10 +3,6 @@ body {
 	color: #18191F
 }
 
-* {
-	box-sizing: border-box;
-}
-
 span {
 	color: #969BAB;
 }
@@ -17,9 +13,9 @@ h1, h2, h3, span, p {
 
 .container {
 	background-color: #D5FAFC;
-	height: 896px;
 	width: 1440px;
 	margin: 0 auto;
+	padding-bottom: 80px;
 }
 
 .left {
@@ -44,6 +40,8 @@ h1, h2, h3, span, p {
 	margin-bottom: 24px;
 }
 
+/* left card */
+
 .left__card {
 	background-color: #fff;
 	border-radius: 8px;
@@ -65,15 +63,18 @@ h1, h2, h3, span, p {
 	font-size: 18px;
 	line-height: 32px;
 	padding-right: 32px;
+	margin-bottom: 24px;
 }
 
-.left__card-text-profile h4 {
+.left__card-text h4 {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 28px;
+	margin-bottom: 2px;
+	margin-top: 0;
 }
 
-.left__card-text-profile span {
+.left__card-text span {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
@@ -91,6 +92,8 @@ h1, h2, h3, span, p {
 	display: inline-block;
 	vertical-align: text-top;
 }
+
+/* first right card */
 
 .right__card-2 {
 	background-color: #fff;
@@ -114,20 +117,24 @@ h1, h2, h3, span, p {
 .right__card-2-text p {
 	font-size: 18px;
 	line-height: 32px;
+	margin-bottom: 24px;
 }
 
-.right__card-2-text-profile h4 {
+.right__card-2-text h4 {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 28px;
+	margin-bottom: 2px;
+	margin-top: 0;
 }
 
-.right__card-2-text-profile span {
+.right__card-2-text span {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
 }
 
+/* second right card */
 
 .right__card-3 {
 	background-color: #fff;
@@ -149,15 +156,18 @@ h1, h2, h3, span, p {
 .right__card-3-text p {
 	font-size: 18px;
 	line-height: 32px;
+	margin-bottom: 24px;
 }
 
-.right__card-3-text-profile h4 {
+.right__card-3-text h4 {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 28px;
+	margin-bottom: 2px;
+	margin-top: 0;
 }
 
-.right__card-3-text-profile span {
+.right__card-3-text span {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
