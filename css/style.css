@@ -1,3 +1,164 @@
+body {
+	font-family: "Manrope", sans-serif;
+	color: #18191F
+}
+
+* {
+	box-sizing: border-box;
+}
+
+span {
+	color: #969BAB;
+}
+
 h1, h2, h3, span, p {
     margin: 0;
   }
+
+.container {
+	background-color: #D5FAFC;
+	height: 896px;
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.left {
+	width: 445px;
+	margin-top: 120px;
+	margin-left: 260px;
+}
+
+.left__text h1{
+	margin-bottom: 8px;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+}
+
+.left__text p {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.left__text {
+	margin-bottom: 24px;
+}
+
+.left__card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	width: 350px;
+	margin-left: auto;
+	padding-bottom: 32px;
+}
+
+.left__card img {
+	margin: 32px 0 32px 32px;
+}
+
+.left__card-text {
+	padding-left: 64px;
+}
+
+.left__card-text p {
+	font-size: 18px;
+	line-height: 32px;
+	padding-right: 32px;
+}
+
+.left__card-text-profile h4 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.left__card-text-profile span {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 0;
+}
+
+/* right */
+
+.right {
+	width: 445px;
+	margin-left: 26px;
+}
+
+.left, .right {
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.right__card-2 {
+	background-color: #fff;
+	width: 445px;
+	margin-top: 168px;
+	margin-bottom: 32px;
+	padding-bottom: 32px;
+	border-radius: 8px;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+
+.right__card-2 img {
+	margin: 32px 0 32px 32px;
+}
+
+.right__card-2-text {
+	margin-left: 64px;
+	margin-right: 32px;
+}
+
+.right__card-2-text p {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.right__card-2-text-profile h4 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.right__card-2-text-profile span {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+.right__card-3 {
+	background-color: #fff;
+	width: 350px;
+	padding-bottom: 32px;
+	border-radius: 8px;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+
+.right__card-3 img {
+	margin: 32px 0 32px 32px;
+}
+
+.right__card-3-text {
+	margin-left: 64px;
+	margin-right: 32px;
+}
+
+.right__card-3-text p {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.right__card-3-text-profile h4 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.right__card-3-text-profile span {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+}
