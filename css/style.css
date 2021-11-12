@@ -1,12 +1,174 @@
-.body {
-	color: black;
+body {
+	color: #485466;
+	font-family: "Nunito" ,sans-serif;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(154px);
+	background-image: url(../img/main/testimonial-bg-1.png);
+	background-position: auto;
 }
 
 h1, h2, h3, span, p {
     margin: 0;
   }
 
-.text {
-	font-family: "Manrope", sans-serif;
-	font-size: 12px;
+* {
+	box-sizing:border-box;
 }
+
+/* HEADER */
+
+header {
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 14.06%, rgba(255, 255, 255, 0.8) 85.42%, rgba(255, 255, 255, 0) 100%);
+	backdrop-filter: blur(111px);
+}
+
+.header-nav-elemnts {
+	padding: 19px 0;
+	z-index: 5;
+}
+
+.header-nav {
+	position: absolute;
+	top: 25%;
+	margin-left: -22px;
+	z-index: 5;
+}
+
+.header-nav a {
+	vertical-align: middle;
+	text-decoration: none;
+	color: #485466;
+}
+
+.header-nav img {
+	margin-bottom: 1px;
+	margin-left: 3px;
+}
+
+.ml32px {
+	margin-left: 32px;
+}
+
+/* HEADER BUTTONS */
+
+.header-buttons {
+	position: absolute;
+	top: 7%;
+	right: 15px;
+	z-index: 5;
+}
+
+.header-buttons button {
+	border-radius: 8px;
+	border: 0;
+	padding: 7px 16px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	cursor: pointer;
+}
+
+.header-buttons__fill {
+	color: #C381DB;
+	box-shadow: 0px 7px 20px rgba(49, 69, 255, 0.13);
+	background: #fff;
+}
+
+.header-buttons__transparent {
+	margin-left: 16px;
+	margin-right: 8px;
+	color: #4E92F9;
+	background: transparent;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.bg-elements {
+	position: absolute;
+	left: 87px;
+	top: 116px;
+}
+
+.main-text-block {
+	margin-top: 176px;
+	margin-left: -11px;
+}
+
+.main-text-block h1 {
+	font-weight: bold;
+	font-size: 51px;
+	line-height: 70px;
+	color: #C381DB;
+}
+
+.main-text-block h2 {
+	font-size: 40px;
+	line-height: 55px;
+	font-weight: normal; /* Без него встаёт жирным */
+	margin-top: -6px;
+}
+
+.main-text-block__h2-span {
+	font-weight: 700;
+}
+
+.main-text-block p {
+	font-size: 16px;
+	line-height: 140%;
+	color: #5A6980;
+	margin-top: 15px;
+}
+
+.main-text-block button {
+	margin-top: 49px;
+	background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+	border-radius: 8px;
+	border: 0;
+	padding: 12px 20px;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+	cursor:	pointer;
+}
+
+/* MAIN IMAGES */
+
+.main-images__bg {
+	position: absolute;
+	margin-left: -114px;
+	margin-top: -90px;
+	z-index: -6;
+	
+}
+
+.main-images__people {
+	position: absolute;
+	top: 229px;
+	z-index: 1;
+}
+
+/* MAIN LOGOS */
+
+.google-logo, .netflix-logo, .microsoft-logo, .mailbuster-logo, .themewagon-logo {
+	vertical-align: middle;
+	
+}
+
+.logos {
+	margin-top: 119px;
+}
+
+.netflix-logo {
+	margin-left: 28px;
+}
+
+.microsoft-logo{
+	margin-left: 49px;
+}
+
+.mailbuster-logo {
+	margin-left: 17px;
+}
+
+/* LOGOS END */
