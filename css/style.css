@@ -1,12 +1,91 @@
-.body {
+body {
 	color: black;
+	font-family: "Gliroy" , sans-serif;
 }
 
 h1, h2, h3, span, p {
-    margin: 0;
-  }
+		margin: 0;
+}
 
-.text {
-	font-family: "Manrope", sans-serif;
-	font-size: 12px;
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.ml16px {
+	margin-left: 16px;
+}
+
+.mr16px {
+	margin-right: 16px;
+}
+
+.share__text {
+	text-align: center;
+}
+
+.share__text h3 {
+	margin-bottom: 8px;
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 150%;
+	color: #616161;
+}
+
+.share__text h1 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 120%;
+	color: #3A3A3A;
+}
+
+/* Flex blocks */
+
+.share__flex {
+	display: flex;
+}
+
+/* Left flex block */
+
+.share__flex__left-block {
+	display: flex;
+	width: 672px;
+	flex-wrap: wrap;
+}
+
+.left-block__top {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 16px;
+}
+
+.left-block__bottom {
+	display: flex;
+	align-items: flex-start;
+}
+
+/* Middle flex block */
+
+.share__flex__middle-block {
+	display: flex;
+	align-items: center;
+}
+
+/* Right flex block */
+
+.share__flex__right-block {
+	display: flex;
+	width: 442px;
+	flex-wrap: wrap;
+}
+
+.right-block__top {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 16px;
+}
+
+.right-block__bottom {
+	display: flex;
+	align-items: flex-start;
 }
