@@ -1,1 +1,2 @@
-@font-face { src: local("Manrope"), url("../fonts/Manrope-Regular.woff2") format("woff2"); font-family: "Manrope"; font-weight: 400; font-style: normal; }
+@font-face { src: local("Gliroy"), url("../fonts/Gilroy-SemiBold.woff") format("woff2"); font-family: "Gliroy"; font-weight: 600; font-style: semi-bold; }
+@font-face { src: local("Gliroy"), url("../fonts/Gilroy-Bold.woff") format("woff2"); font-family: "Gliroy"; font-weight: 700; font-style: bold; }
