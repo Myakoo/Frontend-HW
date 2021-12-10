@@ -1,0 +1,97 @@
+@media (max-width: 375px) {
+	.container {
+		width: 311px;
+	}
+
+	.trends {
+		padding: 48px 0;
+	}
+
+	.trends__head-elements__subscribe {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.trends__head-elements__subscribe input {
+		margin-bottom: 16px;
+	}
+
+	.trends__head-elements__subscribe button {
+		padding: 12px 103px 13px 103px;
+		margin-bottom: 64px;
+	}
+
+	.slick-initialized {
+		display: none;
+	}
+
+	.inspirations__text {
+		display: block;
+	}
+
+	.inspirations__text h2 {
+		font-size: 35px;
+		line-height: 40px;
+		letter-spacing: -0.3px;
+		color: #534B42;
+		margin-bottom: 20px;
+	}
+
+	.inspirations__text p {
+		font-size: 18px;
+		line-height: 25px;
+		color: rgba(112, 100, 88, 0.9);
+		margin-bottom: 40px;
+		width: 311px;
+	}
+
+	.image__cards {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.image__cards p {
+		font-family: Lato, sans-serif;
+		font-size: 15px;
+		line-height: 20px;
+		color: #121212;
+	}
+	
+	.image__card-2 {
+		margin-left: 19px;
+	}
+
+	.image__card-4 {
+		margin-left: 19px;
+	}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 768px) {
+	.container {
+		width: 720px;
+	}
+
+	.trends {
+		padding: 35px 0;
+	}
+
+	.inspirations__text h2 {
+		font-size: 30px;
+		margin-right: 51px
+	}
+
+	.inspirations__text p {
+		width: 325px;
+	}
+
+	.slick-prev {
+		left: 82%;
+		margin-top: 14px;
+  }
+
+  .slick-next {
+	margin-top: 14px;
+	}
+}
