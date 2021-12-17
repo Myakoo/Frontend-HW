@@ -1,0 +1,144 @@
+@media (max-width: 768px) { 
+	.footer {
+		width: 718px;
+	}
+
+	.footer-nav__flex-items {
+		display: block;
+	}
+
+	.nav-items {
+		justify-content: space-between;
+	}
+
+	.follow_us {
+		margin-left: 145px !important;
+	}
+
+	.footer-nav__flex-items-5 {
+		margin: 0 auto;
+		align-items: center;
+	}
+
+	.footer-nav__flex-items-5__top {
+		margin-left: 95px;
+	}
+
+	.footer-nav__flex-items-5 h4 {
+		margin-left: 15%;
+	}
+
+	.subscribe__email form {
+		width: 100% !important;
+	}
+
+	.subscribe__email button {
+		right: 196px
+	}
+}
+
+
+
+@media (max-width: 425px) {
+	.footer {
+		width: 400px;
+	}
+
+	.footer-nav__flex-items-5 {
+		margin: 0 auto;
+		align-items: center;
+		margin-left: 0px !important;
+	}
+
+	.subscribe__email input {
+		width: 300px !important;
+	}
+
+	.subscribe__email form {
+		margin-left: 35px
+	}
+
+	.subscribe__email button {
+		right: 94px
+	}
+
+	.follow_us {
+		margin-left: 150px !important;
+	}
+
+	.footer-nav__flex-items-5 h4 {
+		margin-left: 20%;
+	}
+}
+
+
+
+@media (max-width: 375px) {
+	.footer {
+		width: 340px;
+	}
+
+	.follow_us {
+		margin-left: 130px !important;
+	}
+
+	.footer-nav__flex-items-5 h4 {
+		margin-left: 20%;
+	}
+
+	.footer-nav__flex-items-5__top {
+		margin-left: 80px;
+	}
+
+	.subscribe__email input {
+		width: 264px !important;
+	}
+
+	.subscribe__email button {
+		right: 70px
+	}
+
+
+	.footer__bottom_items-left, .footer__bottom-items-right {
+		display: inline-block;
+		text-align: center;
+	}
+}
+
+
+
+@media (max-width: 320px) {
+	.footer {
+		width: 290px;
+	}
+
+	.nav-items {
+		flex-wrap: wrap;
+	}
+
+	.footer-nav__flex-items-1, .footer-nav__flex-items-2, .footer-nav__flex-items-4, .footer-nav__flex-items-3 {
+		display: flex;
+		justify-content: center;
+		margin-left: 6px;
+	}
+
+	.follow_us {
+		margin-left: 110px !important;
+	}
+
+	.footer-nav__flex-items-5__top {
+		margin-left: 55px;
+	}
+
+	.footer-nav__flex-items-5 h4 {
+		margin-left: 15%;
+	}
+
+	.subscribe__email input {
+		width: 210px !important;
+	}
+
+	.subscribe__email button {
+		right: 73px
+	}
+}
