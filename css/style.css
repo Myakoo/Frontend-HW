@@ -1,12 +1,113 @@
-.body {
-	color: black;
+body {
+	background-image: url(../img/header/Frame\ 1.jpg);
+	background-repeat: no-repeat;
+	background-position: 310px 0;
+	font-family: "Inter", sans-serif;
+	color: #FFFFFF;
 }
 
 h1, h2, h3, span, p {
     margin: 0;
   }
 
-.text {
-	font-family: "Manrope", sans-serif;
-	font-size: 12px;
+.container {
+	width: 1137px;
+	margin: 0 auto;
+}
+
+.header__flex {
+	display: flex;
+}
+
+/* Header Left */
+
+.header__left {
+	margin-top: 64px;
+	width: 584px;
+}
+
+.header__left-logo {
+	margin-bottom: 276px;
+}
+
+.header__left p {
+	width: 473px;
+	font-size: 20px;
+	line-height: 38px;
+	margin-bottom: 22px;
+}
+
+.header__left span {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.header__right {
+	margin-left: 125px;
+}
+
+/* Header Right */
+
+.header__right h2 {
+	margin-top: 193px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.header__right p {
+	width: 411px;
+	font-size: 18px;
+	line-height: 28px;
+	color: #8692A6;
+	margin-bottom: 40px;
+}
+
+/* Forms */
+
+label {
+	color: #696F79;
+}
+
+.input-text {
+	margin-top: 14px;
+	margin-bottom: 24px;
+	width: 366px;
+	padding: 23px 30px 24px 30px;
+	border-radius: 6px;
+	border: 1px solid #8692A6;
+}
+
+.input-text:hover {
+	border: 1px solid #646d7c;
+}
+
+.input-text:focus {
+	outline: none;
+	border: 1px solid #1565D8;
+	box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+}
+
+#input-checkbox {
+	outline: none;
+	margin-bottom: 40px;
+}
+
+#input-submit {
+	padding: 23px 147px;
+	background: #1565D8;
+	border-radius: 6px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+
+#input-submit:hover {
+	background: #3272cc;
 }
